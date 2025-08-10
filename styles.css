@@ -1,12 +1,40 @@
 body {
     background-color: black;
-    text-align: center;
 }
 
+/* Estilos para el encabezado*/
+#encabezado {
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+header {
+    background-color: #770cf1;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+
+/* Estilos para títulos*/
+h2 {
+    color: rgb(135, 44, 219);
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Estilos para subtítulos*/
+h3 {
+    color: rgb(149, 54, 238);
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Estilos para texto*/
 p{
     font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
+
+/* Estilos para section*/
 section {
     background-color: white;
     margin: 20px;
@@ -16,31 +44,34 @@ section {
     
 }
 
-header {
-    background-color: #f8f9fa;
-    padding: 10px;
-    border-radius: 5px;
-}
-
 section:hover{
     transform: scale(1.02);
     transition: transform 0.2s;
 }
 
-ul {
-    list-style-type: initial;
-    padding: 1;
-    align-items: center;
-}
-
+/* Estilos para la foto*/
 #foto {
     width: 400px;
     border-radius: 50%;
     margin: 10px auto;
-    align-items: center;
+    display: block;
+    border: 5px solid rgb(59, 1, 167);
+    align-self: center;
 }
 
 #foto:hover {
     transform: scale(1.05);
     transition: transform 0.2s;
+}
+
+
+/* Estilos para el pie de página*/
+footer {
+    background-color: #770cf1;
+    padding: 10px;
+    text-align: center;
+    color: white;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    border-radius: 5px;
+    margin-top: 20px;
 }
