@@ -1,3 +1,46 @@
+body {
+    background-color: black;
+    text-align: center;
+}
+
 p{
     font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+section {
+    background-color: white;
+    margin: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    
+}
+
+header {
+    background-color: #f8f9fa;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+section:hover{
+    transform: scale(1.02);
+    transition: transform 0.2s;
+}
+
+ul {
+    list-style-type: initial;
+    padding: 1;
+    align-items: center;
+}
+
+#foto {
+    width: 400px;
+    border-radius: 50%;
+    margin: 10px auto;
+    align-items: center;
+}
+
+#foto:hover {
+    transform: scale(1.05);
+    transition: transform 0.2s;
 }
